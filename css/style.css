@@ -348,24 +348,16 @@ footer {
   -o-border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center center;
-  transition: border-color 0.3s ease;
-  -webkit-transition: border-color 0.3s ease;
-  -moz-transition: border-color 0.3s ease;
-  -ms-transition: border-color 0.3s ease;
-  -o-transition: border-color 0.3s ease;
+  transition: border-color background-image 0.3s ease;
+  -webkit-transition: border-color background-image 0.3s ease;
+  -moz-transition: border-color background-image 0.3s ease;
+  -ms-transition: border-color background-image 0.3s ease;
+  -o-transition: border-color background-image 0.3s ease;
 }
 
 .social-block:hover {
   border-color: #828282;
 }
-
-/* .social-block-yt,
-.social-block-vk,
-.social-block-fb,
-.social-block-insta {
-  background-repeat: no-repeat;
-  background-position: center center;
-} */
 
 .social-block-yt {
   background-image: url(../img/social/yt.svg);
